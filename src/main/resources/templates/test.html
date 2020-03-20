@@ -10,15 +10,7 @@
     <canvas id="c"></canvas>
     <div></div>
     <div style="border: 1px solid #CABEFF">
-        <span style="margin-left: 30px;color: #CABEFF;font-size: 30px">
-            入目无他人，四下皆是你。<br/>
-        </span>
-        <span style="margin-left: 30px;color: #CABEFF;font-size: 30px">
-               宝宝，我爱你<br/>
-        </span>
-        <span style="margin-left: 30px;color: #CABEFF;font-size: 30px">
-               永远爱你的狗子
-        </span>
+
         <span style="margin-left: 30px;color: #CABEFF;font-size: 30px">
                以后一定多关心宝宝，不要只是嘴上说说--邱明 写于 2020年3月20日 23时44分
         </span>
@@ -54,7 +46,7 @@
         // 文字转语音
         ttsDiv.removeChild(ttsAudio);
         var au1 = '<audio id="tts_autio_id" autoplay="autoplay">';
-        var sss = '<source id="tts_source_id" src="http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&per=3&spd=5&text=' + "宝宝，情人节快乐，永远爱你的狗子" + '" type="audio/mpeg">';
+        var sss = '<source id="tts_source_id" src="http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&per=3&spd=5&text=' + "以后一定多关心宝宝，不要只是嘴上说说，邱明 写于 2020年3月20日 23时44分" + '" type="audio/mpeg">';
         var eee = '<embed id="tts_embed_id" height="0" width="0" src="">';
         var au2 = '</audio>';
         ttsDiv.innerHTML = au1 + sss + eee + au2;
