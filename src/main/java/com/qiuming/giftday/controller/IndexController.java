@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class IndexController {
+    /**
+     *
+     * @return
+     */
     @RequestMapping("/index")
     public String index(){
         return "test";
